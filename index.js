@@ -90,7 +90,7 @@ app.get("/api/products/search/:name", async (req, res) => {
 // Connect to MongoDB
 mongoose
     .connect(
-        "mongodb+srv://akshataga20:cGoaeRbCo6dDaIjE@backenddb.k7ljmg7.mongodb.net/?retryWrites=true&w=majority",
+        "mongodb+srv://akshataga20:<password>.k7ljmg7.mongodb.net/?retryWrites=true&w=majority",
         {
             useNewUrlParser: true,
             useUnifiedTopology: true,
